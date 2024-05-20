@@ -1,6 +1,9 @@
 import pandas as pd
 
-df = pd.read_csv('World-happiness-report-2024 (1).csv')
-print(df.describe())
-print(df.info())
+df = pd.read_csv('dz.csv')
 
+# Вывод столбца 'Salary'
+print(df['Salary'])
+
+# Вывод столбца 'City'
+print(df['City'])
